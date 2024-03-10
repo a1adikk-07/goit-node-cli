@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index"
@@ -11,10 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "commander": "^0.0.1-security",
+    "commander": "^12.0.0",
     "nanoid": "^5.0.6"
-  },
-  "devDependencies": {
-    "jest": "^29.7.0"
   }
 }
