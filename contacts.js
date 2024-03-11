@@ -1,8 +1,8 @@
 import fs from "fs/promises";
+import path from "path";
 import { nanoid } from "nanoid";
 
-import { contactsPath } from "./db/contacts.js";
-
+const contactsPath = path.resolve("db", "contacts.json");
 export async function listContacts() {
   const data = contactsPath;
   return data;
